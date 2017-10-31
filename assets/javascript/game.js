@@ -1,12 +1,12 @@
 $( document ).ready(function(){
   var Random=Math.floor(Math.random()*50+12)
 
-  //
+
   $('#randomNumber').text(Random);
-  var numberOne= Math.floor(Math.random()*11+1)
-  var numberTwo= Math.floor(Math.random()*11+1)
-  var numberThree= Math.floor(Math.random()*11+1)
-  var numberFour= Math.floor(Math.random()*11+1)
+  var numberOne= Math.floor(Math.random()*11+2)
+  var numberTwo= Math.floor(Math.random()*11+2)
+  var numberThree= Math.floor(Math.random()*11+2)
+  var numberFour= Math.floor(Math.random()*11+2)
 
   var userTotal= 0; 
   var wins= 0;
@@ -27,14 +27,14 @@ function reset(){
       } 
 
 function success(){
-alert("You won!");
+alert("You Won!");
   wins++; 
   $('#numberWins').text(wins);
   reset();
 }
 
 function tryAgain(){
-alert ("You lose!");
+alert ("You Lose!");
   losses++;
   $('#numberLosses').text(losses);
   reset()
