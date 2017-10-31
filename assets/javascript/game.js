@@ -1,5 +1,5 @@
 $( document ).ready(function(){
-  var Random=Math.floor(Math.random()*82+12)
+  var Random=Math.floor(Math.random()*50+12)
   // Selects a random number to be shown at the start of the game
   // Number should be should be between 19 - 120
   //
