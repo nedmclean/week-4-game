@@ -1,3 +1,18 @@
 .jumbotron{
 	font-family: 'Kaushan Script', cursive;
+	background: lemonchiffon;
+	font-color: lemonchiffon;
+}
+
+.userTotal{
+	font-family: times, serif;
+	
+}
+
+.container{
+	background: lemonchiffon;
+}
+
+#finalTotal{
+	font-size:24px;
 }
