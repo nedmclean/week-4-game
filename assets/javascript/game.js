@@ -1,11 +1,8 @@
 $( document ).ready(function(){
   var Random=Math.floor(Math.random()*50+12)
-  // Selects a random number to be shown at the start of the game
-  // Number should be should be between 19 - 120
+
   //
   $('#randomNumber').text(Random);
-  // Appending random number to the randomNumber id in the html doc
-  //
   var numberOne= Math.floor(Math.random()*11+1)
   var numberTwo= Math.floor(Math.random()*11+1)
   var numberThree= Math.floor(Math.random()*11+1)
